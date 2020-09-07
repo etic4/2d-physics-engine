@@ -2,7 +2,7 @@
 // https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331
 // et https://github.com/vonWolfehaus/von-physics/blob/master/src/physics/Physics2.js
 
-package physique
+package physics
 
 import (
 	"fmt"
@@ -192,7 +192,6 @@ func AABBvsAABB(first *Rectangle, second *Rectangle) *CollisionInfo {
 		info.normal.Y = sy
 		info.penetration = py
 	}
-
 
 	// grounded si normale.Y == -1 et corps a une masse
 	if info.normal.Y == -1 {

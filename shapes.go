@@ -1,4 +1,4 @@
-package physique
+package physics
 
 //Shape type de la forme
 type Shape interface {
