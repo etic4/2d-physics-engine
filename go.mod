@@ -1,3 +1,3 @@
-module github.com/machinbrol/2d-physics-engine
+module github.com/etic4/2d-physics-engine
 
 go 1.17
